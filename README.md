@@ -1,7 +1,5 @@
 # Sequence to Range
 
-proper readme comming soon...
-
 ## Steps to install:
  ```
  npm i sequence-to-range
@@ -10,7 +8,7 @@ proper readme comming soon...
 ## Steps to use:
 
 ```
-import sequenceToRange from 'sequence-to-range`
+import sequenceToRange from 'sequence-to-range'
                     or 
 const sequenceToRange = require('sequence-to-range')
 
