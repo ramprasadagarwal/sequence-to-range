@@ -1,0 +1,3 @@
+## Sequence to Range
+
+readme comming soon...
