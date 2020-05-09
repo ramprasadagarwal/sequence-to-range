@@ -1,4 +1,4 @@
-export const getRanges = (array) => {
+const sequenceToRange = (array) => {
   const ranges = []
   for (let i = 0; i < array.length; i += 1) {
     const rstart = array[i]
@@ -11,3 +11,5 @@ export const getRanges = (array) => {
   }
   return ranges
 }
+
+module.exports.default = sequenceToRange
