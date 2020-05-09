@@ -13,4 +13,4 @@ const sequenceToRange = (sequence, delimitor = ' - ') => {
   return ranges
 }
 
-module.exports.default = sequenceToRange
+module.exports = sequenceToRange
