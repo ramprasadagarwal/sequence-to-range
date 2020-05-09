@@ -10,9 +10,11 @@ proper readme comming soon...
 ## Steps to use:
 
 ```
-const { getRanges } from 'sequence-to-range`
+import sequenceToRange from 'sequence-to-range`
+                    or 
+const sequenceToRange = require('sequence-to-range')
 
-getRanges([1, 2, 3, 4, 5])
+sequenceToRange([1, 2, 3, 4, 5])
 ```
 
 ## Sample input output
@@ -26,3 +28,10 @@ output: ['1 - 5', '9 - 11']
 
 input: [1, 2, 3, 4, 5, 9]
 output: ['1 - 5', '9']
+```
+
+## Definition
+
+```
+sequenceToRange(sequence, delimitor = ' - ')
+```

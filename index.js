@@ -1,13 +1,14 @@
-const sequenceToRange = (array) => {
+const sequenceToRange = (sequence, delimitor = ' - ') => {
+  const sortedSequences = sequence.sort()
   const ranges = []
-  for (let i = 0; i < array.length; i += 1) {
-    const rstart = array[i]
+  for (let i = 0; i < sortedSequences.length; i += 1) {
+    const rstart = sortedSequences[i]
     let rend = rstart
-    while (array[i + 1] - array[i] === 1) {
-      rend = array[i + 1] // increment the index if the numbers sequential
+    while (sortedSequences[i + 1] - sortedSequences[i] === 1) {
+      rend = sortedSequences[i + 1]
       i += 1
     }
-    ranges.push(rstart === rend ? `${rstart}` : `${rstart} - ${rend}`)
+    ranges.push(rstart === rend ? `${rstart}` : `${rstart}${delimitor}${rend}`)
   }
   return ranges
 }
