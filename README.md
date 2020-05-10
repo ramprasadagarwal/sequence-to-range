@@ -1,5 +1,7 @@
 # Sequence to Range
 
+npm package to convert sequence of number into range
+
 ## Steps to install:
  ```
  npm i sequence-to-range

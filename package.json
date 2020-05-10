@@ -1,7 +1,7 @@
 {
   "name": "sequence-to-range",
   "version": "1.0.6",
-  "description": "",
+  "description": "npm package to convert sequence of number into range",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/RamPrasadAgarwal/sequence-to-range.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ramprasadagarwal",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RamPrasadAgarwal/sequence-to-range/issues"
   },
   "homepage": "https://github.com/RamPrasadAgarwal/sequence-to-range#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "numbers-to-range",
+    "sequence-to-range",
+    "coonvert-to-range",
+    "reverse-of-range-function",
+    "de-range"
+  ]
 }
