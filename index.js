@@ -1,5 +1,5 @@
 const sequenceToRange = (sequence, delimitor = ' - ') => {
-  const sortedSequences = sequence.sort()
+  const sortedSequences = sequence.sort((a, b) => a - b)
   const ranges = []
   for (let i = 0; i < sortedSequences.length; i += 1) {
     const rstart = sortedSequences[i]
