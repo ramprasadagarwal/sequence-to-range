@@ -3,15 +3,16 @@
 npm package to convert sequence of number into range
 
 ## Steps to install:
- ```
- npm i sequence-to-range
+
+```
+npm i sequence-to-range
 ```
 
 ## Steps to use:
 
 ```
 import sequenceToRange from 'sequence-to-range'
-                    or 
+                    or
 const sequenceToRange = require('sequence-to-range')
 
 sequenceToRange([1, 2, 3, 4, 5])
@@ -33,5 +34,5 @@ output: ['1 - 5', '9', '11']
 ## Definition
 
 ```
-sequenceToRange(sequence, delimitor = ' - ')
+sequenceToRange(sequence, delimiter = ' - ')
 ```
