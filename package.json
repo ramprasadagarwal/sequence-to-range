@@ -1,6 +1,6 @@
 {
   "name": "sequence-to-range",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "npm package to convert sequence of number into range",
   "main": "index.js",
   "scripts": {
